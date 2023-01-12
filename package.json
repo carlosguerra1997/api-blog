@@ -1,0 +1,15 @@
+{
+  "name": "api-blog",
+  "version": "0.0.1",
+  "description": "API para el Blog sobre desarrollo web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Carlos Guerra García",
+  "license": "ISC",
+  "dependencies": {
+    "hono": "2.7.2"
+  }
+}
