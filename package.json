@@ -1,15 +1,19 @@
 {
   "name": "api-blog",
   "version": "0.0.1",
+  "type": "module",
   "description": "API para el Blog sobre desarrollo web.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "wrangler dev index.js"
   },
   "keywords": [],
   "author": "Carlos Guerra García",
   "license": "ISC",
   "dependencies": {
     "hono": "2.7.2"
+  },
+  "devDependencies": {
+    "wrangler": "2.7.1"
   }
 }
